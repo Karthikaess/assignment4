@@ -62,3 +62,48 @@ p{
     justify-content: space-evenly;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+    body{
+        display: block;
+        height: auto;
+    
+    }
+    .container{
+        height: auto;
+        width: auto;
+        display: block;
+        color: whitesmoke;
+    
+    }
+    .first{
+        width:auto;
+        height: auto;
+        display: block;
+    }
+    .second{
+        margin-left: 10px;
+    }
+    p{
+        text-align: center;
+    }
+    .circle{
+
+        width: auto;
+
+        height: auto;
+        display: block;
+
+    }
+    .third{
+        width: auto;
+        height: auto;
+        display: block;
+        
+    }
+    .id1,.id2,.id3,.id4{
+        width: auto;
+        height: auto;
+        display: block;
+
+    }
+}
